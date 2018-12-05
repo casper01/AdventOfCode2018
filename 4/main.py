@@ -43,7 +43,7 @@ def main():
     # sorting data
     logs.sort(key=attrgetter('date.y', 'date.m',
                              'date.d', 'date.h', 'date.mi'))
-    
+
     # finding asleep time for every minute
     guards = {}
     actGuard = logs[0].getId()
