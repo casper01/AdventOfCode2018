@@ -1,5 +1,5 @@
 """
-Day n: Description
+Day 22: Mode Maze
 """
 
 import queue
